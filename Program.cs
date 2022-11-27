@@ -6,7 +6,7 @@ class ReadJsonFile
     {
         string fileName = @"./movies.json";
         string jsonString = File.ReadAllText(fileName);
+        var movie = JsonSerializer.Deserialize<List<Movies>>(jsonString);
 
-     
     }
 }
