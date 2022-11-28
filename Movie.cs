@@ -1,8 +1,8 @@
 public class Movies
 {
-    public int id { get; set; }
-    public string title { get; set; }
-    public int raiting { get; set; }
-    public string genre { get; set; }
-    public int duration { get; set; }
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public int Raiting { get; set; }
+    public string Genre { get; set; }
+    public int Duration { get; set; }
 }
